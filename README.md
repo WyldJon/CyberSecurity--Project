@@ -9,6 +9,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   - _TODO: Enter the playbook file._
   - https://github.com/WyldJon/CyberSecurity--Project/blob/main/Ansible/pentest.yml
   - https://github.com/WyldJon/CyberSecurity--Project/blob/main/Ansible/elkstack.yml
+  - https://github.com/WyldJon/CyberSecurity--Project/blob/main/Ansible/filebeat-playbook.yml
 
 This document contains the following details:
 - Description of the Topology
