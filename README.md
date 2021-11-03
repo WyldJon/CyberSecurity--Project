@@ -56,12 +56,12 @@ Machines within the network can only be accessed by Jump-Box-Provisioner.
 
 A summary of the access policies in place can be found in the table below.
 
-| Name                 | Publicly Accessible         | Allowed IP Addresses  |
-|----------------------|-----------------------------|-----------------------|
-| Jump-Box-Provisioner | Yes                         | 24.22.90.198          |
-| Web-1                | Yes (through load balancer) | 24.22.90.198 10.0.0.4 |
-| Web-1                | Yes (through load balancer) | 24.22.90.198 10.0.0.4 |
-| ELK-1                | Yes                         | 24.22.90.198 10.0.0.4 |
+| Name                 | Publicly Accessible | Allowed IP Addresses  |
+|----------------------|---------------------|-----------------------|
+| Jump-Box-Provisioner | Yes                 | 24.22.90.198          |
+| Web-1                | No                  | 10.0.0.4              |
+| Web-1                | No                  | 10.0.0.4              |
+| ELK-1                | Yes                 | 24.22.90.198 10.0.0.4 |
 
 ### Elk Configuration
 
